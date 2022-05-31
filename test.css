@@ -1,0 +1,491 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-size: 1rem;
+}
+
+body{
+  margin:0;
+  height: 200%;
+  background-image: url(img/mapafons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #000018;
+  opacity: 40%;
+  float: right;
+  margin-right: 1rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #000018;
+  margin: 0 auto;
+  line-height: 1.7rem;
+  padding-top: 1.5rem;
+  padding-top: 1rem;
+}
+
+h3{
+  width: 95%;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #000018;
+  line-height: 1.5rem;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*-------MENU ACTIVADOR-------*/
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+  #alternador{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  #alternador label{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0rem;
+    left: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.5 ease;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 505555555555555555555555555555555555555;
+  }
+
+  .desplega{
+    width: 20rem;
+    height: 58rem;
+    background-color: #19D3C5;
+    border-radius: 0 47px 47px 0;
+    position: absolute;
+    top: 5rem;
+    left: -21rem;
+    z-index: 999999999999999999999999999999;
+    box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    transition: 0.2s ease-in;
+    }
+
+  #alternador input[type=checkbox]:checked+label{
+    opacity: 1;
+    top: 0rem;
+    left: 0.5rem;
+
+  }
+
+  #alternador input[type=checkbox]:checked+label~.desplega{
+    opacity: 1;
+    left: 0;
+  }
+
+  b {
+    width: 3rem;
+    height: 3rem;
+    background-image: url(img/menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: left;
+    margin-top: 0.5rem;
+  }
+
+  ul{
+    margin-left: -2rem;
+  }
+
+/*-----INTERIOR DEL MENU-----*/
+
+h5{
+  height: 2rem;
+  width: 3rem;
+  font-size: 1rem;
+  color: #000018;
+  opacity: 40%;
+  display: inline-block;
+  margin:0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+h6{
+  font-size: 1rem;
+  color: white;
+  margin-left: 1rem;
+}
+
+h6:hover{
+  background-color: #5DDCD2;
+  border-radius: 50px;
+  transition: 0.1s ease-in;
+}
+
+/*-----BARRA SUPERIOR-----*/
+
+.barreta{
+  width: 60%;
+  height: 3rem;
+  background-color: #C3FFFF;
+  border-radius: 50px;
+  margin: 2rem 0 0 2rem;
+  text-align: right;
+
+}
+
+.lupeta{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/lupa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0.5rem;
+  vertical-align: middle;
+}
+
+/*-----SECCIONS-----*/
+
+.seccio{
+  width: 80%;
+  height: 2rem;
+  margin: 0 auto;
+  clear: both;
+}
+
+#baixa{
+  margin-top: 7rem;
+}
+
+.contenidor{
+  width: 80%;
+  height: 2rem;
+  float: left;
+}
+
+#campana{
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-top: 2rem;
+  background-image: url(img/campana.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#privacitat{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/privacitat.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#seguretat{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/seguretat.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#anuncis{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/anuncis.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#compte{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/compte.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#ajuda{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/ajuda.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#informacio{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/informacio.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#tema{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/tema.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#idioma{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/idioma.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#iniciar{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/iniciar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+#agregar{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/agregar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+#sortir{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  background-image: url(img/sortir.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/*-----PART SUPERIOR-----*/
+
+.pagina{
+  max-width: 30rem;
+  height: ;
+  margin: 0 auto;
+  margin-top: 0rem;
+  overflow: hidden;
+}
+
+.menu{
+  width: 3rem;
+  height: 3rem;
+  background-image: url(img/menu.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: left;
+  margin-top: 0.5rem;
+}
+
+.superior {
+  position: fixed;
+  top: 0.9rem;
+  left: 0;
+  right: 0;
+  height: 4.125rem;
+  z-index: 888888888;
+
+}
+
+.cercador{
+    width: 20rem;
+    height: 4.125rem;
+    background-color: #C3FFFF;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.lupa{
+  width: 2rem;
+  height: 4.125rem;
+  background-image: url(img/lupa.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: right;
+  margin-right: 1rem;
+
+}
+
+.filtres{
+  width: 3rem;
+  height: 3rem;
+  background-image: url(img/filtres.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+/*-----PART SUPERIOR-----*/
+
+.comentari{
+  width: 30rem;
+  height: 12rem;
+  background-image: url(img/pastilla.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 12rem;
+}
+
+.suma{
+  width: 2rem;
+  height: 5rem;
+  background-image: url(img/suma.png);
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center 2rem;
+  padding: 2rem;
+  float: left;
+}
+
+/*-----BARRA D'EINES-----*/
+
+.barra{
+  width: 100%;
+  height: 6.5rem;
+  margin: 0 auto;
+  background-color: #19D3C5;
+  border-radius: 25px 25px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+.centrat{
+  margin: 0 auto;
+}
+
+.simbol{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+.simbol:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+#grafic{
+  background-image: url(img/grafic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+
+#posts{
+  background-image: url(img/posts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casa{
+  background-image: url(img/casa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#missatges{
+  background-image: url(img/missatges.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#perfil{
+  background-image: url(img/perfil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*-----PREGUNTA-----*/
+
+.comentari{
+  width: 30rem;
+  height: 12rem;
+  background-image: url(img/pastilla.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 12rem;
+}
+
+.suma{
+  width: 2rem;
+  height: 5rem;
+  background-image: url(img/suma.png);
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center 2rem;
+  padding: 2rem;
+  float: left;
+}
+
+@media screen and (min-width: 1200px){
+
+  .filtres{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+
+}
