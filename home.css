@@ -72,13 +72,13 @@ input[type=checkbox] {
   }
 
   .desplega{
-    width: 25rem;
+    width: 20rem;
     height: 59.99rem;
     background-color: #19D3C5;
     border-radius: 0 47px 47px 0;
     position: absolute;
     top: 2.5rem;
-    left: -26.5rem;
+    left: -21rem;
     z-index: 9999999;
     box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
@@ -303,7 +303,7 @@ h6:hover{
   height: ;
   margin: 0 auto;
   margin-top: 0rem;
-  background-color: red;
+  overflow: hidden;
 }
 
 .menu{
