@@ -156,8 +156,9 @@ h5{
 
 /*-----SECCIONS-----*/
 
-.flow{
-  overflow-y: scroll;
+.llisca{
+  height: 35rem;
+  overflow-y: auto;
 }
 
 .seccio{
