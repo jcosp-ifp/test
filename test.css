@@ -156,6 +156,10 @@ h5{
 
 /*-----SECCIONS-----*/
 
+.flow{
+  overflow-y: scroll;
+}
+
 .seccio{
   width: 80%;
   height: 1.8rem;
