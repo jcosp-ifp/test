@@ -83,8 +83,9 @@ input[type=checkbox] {
     left: -29rem;
     z-index: 999999999999999999999999999999;
     -webkit-box-shadow: 7px 0px 50px -15px rgba(0,0,0,0.78);
-box-shadow: 7px 0px 50px -15px rgba(0,0,0,0.78);
+    box-shadow: 7px 0px 50px -15px rgba(0,0,0,0.78);
     transition: 0.2s ease-in;
+    overflow-y: auto;
     }
 
   #alternador input[type=checkbox]:checked+label{
@@ -128,17 +129,6 @@ h5{
   vertical-align: middle;
 }
 
-h6{
-  font-size: 1rem;
-  color: white;
-  margin-left: 1rem;
-}
-
-h6:hover{
-  background-color: #5DDCD2;
-  border-radius: 50px;
-  transition: 0.1s ease-in;
-}
 
 /*-----BARRA SUPERIOR-----*/
 
@@ -168,9 +158,32 @@ h6:hover{
 
 .seccio{
   width: 80%;
-  height: 2rem;
-  margin: 0 auto;
+  height: 1.8rem;
+  margin: 1rem auto;
   clear: both;
+}
+
+.seccio h6{
+  font-size: 0.8rem;
+  color: white;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+  float: left;
+}
+
+.seccio h6:hover{
+  background-color: #5DDCD2;
+  border-radius: 50px;
+  transition: 0.1s ease-in;
+}
+
+
+.seccio .conten {
+  margin: 0;
+  float: left;
+  overflow: hidden;
 }
 
 #baixa{
@@ -181,12 +194,13 @@ h6:hover{
   width: 80%;
   height: 2rem;
   float: left;
+  margin:0;
+  overflow: hidden;
 }
 
 #campana{
   width: 1.7rem;
   height: 1.7rem;
-  margin-top: 2rem;
   background-image: url(img/campana.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -196,7 +210,6 @@ h6:hover{
 #privacitat{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/privacitat.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -206,7 +219,6 @@ h6:hover{
 #seguretat{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/seguretat.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -216,7 +228,6 @@ h6:hover{
 #anuncis{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/anuncis.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -226,7 +237,6 @@ h6:hover{
 #compte{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/compte.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -236,7 +246,6 @@ h6:hover{
 #ajuda{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/ajuda.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -246,7 +255,6 @@ h6:hover{
 #informacio{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/informacio.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -256,7 +264,6 @@ h6:hover{
 #tema{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/tema.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -266,7 +273,6 @@ h6:hover{
 #idioma{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/idioma.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -276,7 +282,6 @@ h6:hover{
 #iniciar{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/iniciar.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -287,7 +292,6 @@ h6:hover{
 #agregar{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/agregar.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -298,12 +302,12 @@ h6:hover{
 #sortir{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/sortir.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
+
 
 /*-----PART SUPERIOR-----*/
 
