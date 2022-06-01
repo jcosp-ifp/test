@@ -2,17 +2,17 @@ html {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: hidden;
+  margin: 0;
   font-size: 1rem;
 }
 
 body{
+  position: relative;
   margin:0;
   font-family: 'Montserrat', sans-serif;
 }
 
 h1{
-  font-family: 'Montserrat', sans-serif;
   color: #000018;
   font-size: 0.9rem;
   margin-left: 1rem;
@@ -22,7 +22,6 @@ h1{
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
   color: #000018;
   font-size: 0.6rem;
   margin-right: 1.3rem;
@@ -36,7 +35,6 @@ h3{
   margin-left: 0.5rem;
   color: white;
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
   line-height: 1rem;
 }
 
@@ -47,17 +45,23 @@ h3{
 
 /*------BARRA SUPERIOR------*/
 
-.pagina{
+.pagina {
   margin: 0 auto;
   width: 30rem;
-  height: auto;
+  height: 100vh;
+  padding-top: 6rem;
 }
 
 .superior{
-  width: 30rem;
+  width: ;
   height: 4.125rem;
-  margin-top: 1.938rem;
+  margin-top: 0;
   margin-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
 }
 
 #icono{
@@ -154,6 +158,9 @@ h3{
   height: 3.188rem;
   border-radius: 50px;
   margin-top: 5rem;
+  position: fixed;
+  bottom: 5rem;
+
 }
 
 .esquerra{
