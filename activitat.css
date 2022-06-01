@@ -1,0 +1,355 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #000018;
+  line-height: 1.2rem;
+  margin-left: 1rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #000018;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+  line-height: 0;
+}
+
+/*-----BARRA SUPERIOR-----*/
+
+.superior{
+  width: 30rem;
+  height: 4.125rem;
+  margin: 0 auto;
+  margin-top: 1.2rem;
+}
+
+.contenidor{
+  float: left;
+}
+
+#retorna{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/fletxa.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 1rem;
+}
+
+/*-----GRAFICA-----*/
+
+.grafica{
+  width: 30rem;
+  height: 15rem;
+  background-image: url(img/grafica.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0, 0;
+  margin: 0 auto;
+  margin-top: 1rem;
+
+  -webkit-box-shadow: inset 0px -19px 14px 22px rgba(255,255,255,1);
+-moz-box-shadow: inset 0px -19px 14px 22px rgba(255,255,255,1);
+box-shadow: inset 0px -19px 14px 22px rgba(255,255,255,1);
+}
+
+/*-----CARETES-----*/
+
+.caretes{
+  width: 22.875rem;
+  height: 14.313rem;
+  background-image: url(img/caretes.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0, 0;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+/*-----CALENDARI-----*/
+
+.calendari{
+  width: 30rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.element{
+  width: 1.5rem;
+  height: 1.5rem;
+  float: left;
+  background-color: #000018;
+  margin-left: 2.3rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+
+.element:hover{
+  transform: scale(1.2);
+  transition: 0.1s ease-in;
+  opacity: 40%;
+}
+
+#transparent{
+  background-color: transparent;
+}
+
+#grandet{
+  background-color: #19D3C5;
+}
+
+/*-----BARRA D'EINES-----*/
+
+.barra{
+  width: 100%;
+  height: 4.5rem;
+  margin: 0 auto;
+  background-color: #19D3C5;
+  border-radius: 25px 25px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+.simbol{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+.simbol:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+.centre{
+  margin: 0 auto;
+}
+
+#grafic{
+  background-image: url(img/grafic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+
+#posts{
+  background-image: url(img/posts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casa{
+  background-image: url(img/casa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#missatges{
+  background-image: url(img/missatges.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#perfil{
+  background-image: url(img/perfil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and  (min-width: 1200px){
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #000018;
+    line-height: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #000018;
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    line-height: 0;
+  }
+
+  /*-----BARRA SUPERIOR-----*/
+
+  .superior{
+    width: 30rem;
+    height: 4.125rem;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+  }
+
+  .contenidor{
+    float: left;
+  }
+
+  #retorna{
+    width: 2rem;
+    height: 2rem;
+    background-image: url(img/fletxa.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 1rem;
+  }
+
+  /*-----GRAFICA-----*/
+
+  .grafica{
+    width: 100%;
+    height: 22rem;
+    background-image: url(img/grafica.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-position: center;
+
+    -webkit-box-shadow: inset 0px -19px 14px 22px rgba(255,255,255,1);
+  -moz-box-shadow: inset 0px -19px 14px 22px rgba(255,255,255,1);
+  box-shadow: inset 0px -19px 14px 22px rgba(255,255,255,1);
+  }
+
+  /*-----CARETES-----*/
+
+  .caretes{
+    width: 35rem;
+    height: 23rem;
+    background-image: url(img/caretes.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0, 0;
+    margin-left: 23%;
+    border-radius: 50px;
+    float: left;
+  }
+
+  /*-----CALENDARI-----*/
+
+  .calendari{
+    width: 30rem;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+
+  .element{
+    width: 1.5rem;
+    height: 1.5rem;
+    float: left;
+    background-color: #000018;
+    margin-left: 2.3rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+  }
+
+  .element:hover{
+    transform: scale(1.2);
+    transition: 0.1s ease-in;
+    opacity: 40%;
+  }
+
+  #transparent{
+    background-color: transparent;
+  }
+
+  #grandet{
+    background-color: #19D3C5;
+  }
+
+  /*-----BARRA D'EINES-----*/
+
+  .barra{
+    width: 100%;
+    height: 4.5rem;
+    margin: 0 auto;
+    background-color: #19D3C5;
+    border-radius: 25px 25px 0 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    text-align: center;
+  }
+
+  .simbol{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: inline-block;
+  }
+
+  .simbol:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+  }
+
+  .centre{
+    margin: 0 auto;
+  }
+
+  #grafic{
+    background-image: url(img/grafic.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+  }
+
+  #posts{
+    background-image: url(img/posts.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #casa{
+    background-image: url(img/casa.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #missatges{
+    background-image: url(img/missatges.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #perfil{
+    background-image: url(img/perfil.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
