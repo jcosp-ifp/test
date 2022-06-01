@@ -1,0 +1,221 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-size: 1rem;
+}
+
+body{
+  background-image: url(img/segonfons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  line-height: 4rem;
+  color: white;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  line-height: 4rem;
+  color: #000018;
+  opacity: 40%;
+}
+
+h3{
+  width: 17.81rem;
+  height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  color: #000018;
+  opacity: 40%;
+  margin: 0 auto;
+  line-height: 2rem;
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  width: 18.25rem;
+  height: 2.438rem;
+  margin: 0 auto;
+  margin-top: 12.188rem;
+  background-image: url(img/logocolor.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.capsa{
+  background-color: #19D3C5;
+  width: 17.81rem;
+  height: 4.1rem;
+  margin: 0 auto;
+  border-radius: 30rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+#inicia:hover{
+  background-color: #5DDCD2;
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+#fantasma:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+#inicia:active{
+  background-color: #5DDCD2;
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+#fantasma:active{
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+#electronic{
+  background-color: #C3FFFF;
+  margin-top: 15rem;
+}
+
+#contra{
+  background-color: #C3FFFF;
+  margin-bottom: 0;
+}
+
+.botons{
+  width: auto;
+  height: auto;
+  margin-top: 5rem;
+}
+
+#inicia{
+  margin-bottom: 0;
+}
+
+#fantasma{
+  background-color: transparent;
+}
+
+@media screen and  (min-width: 1200px){
+  body{
+    background-image: url(img/contenta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    color: white;
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    color: #000018;
+    opacity: 40%;
+  }
+
+  #fantasma h2{
+    color: white;
+    opacity: 100%;
+  }
+
+  h3{
+    width: 17.81rem;
+    height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    line-height: 2rem;
+    text-align: right;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .logo{
+    width: 18.25rem;
+    height: 2.438rem;
+    margin: 0 auto;
+    margin-top: 12.188rem;
+    background-image: url(img/logocolor.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .capsa{
+    background-color: #19D3C5;
+    width: 17.81rem;
+    height: 4.1rem;
+    margin: 0 auto;
+    border-radius: 30rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+  #inicia:hover{
+    background-color: #5DDCD2;
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+  }
+
+  #fantasma:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+  }
+
+  #inicia:active{
+    background-color: #5DDCD2;
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+  }
+
+  #fantasma:active{
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+  }
+
+  #electronic{
+    background-color: #C3FFFF;
+    margin-top: 15rem;
+  }
+
+  #contra{
+    background-color: #C3FFFF;
+    margin-bottom: 0;
+  }
+
+  .botons{
+    width: auto;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #inicia{
+    margin-bottom: 0;
+  }
+
+  #fantasma{
+    background-color: transparent;
+  }
+}
