@@ -1,0 +1,252 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 1rem;
+}
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #000018;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+  line-height: 3rem;
+  height: 1.594rem;
+  font-weight: 300;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #000018;
+  font-size: 0.6rem;
+  margin-right: 1.3rem;
+  text-align: right;
+  opacity: 40%;
+  font-weight: 300;
+}
+
+h3{
+  float: left;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1rem;
+}
+
+#horeta{
+  margin-top: 14.3rem;
+  margin-right: 2rem;
+}
+
+/*------BARRA SUPERIOR------*/
+
+.pagina{
+  margin: 0 auto;
+  width: 30rem;
+  height: auto;
+}
+
+.superior{
+  width: 30rem;
+  height: 4.125rem;
+  margin-top: 1.938rem;
+  margin-bottom: 2rem;
+}
+
+#icono{
+  height: 2rem;
+  width: 2rem;
+  margin-top: 1rem;
+  background-image: url(img/fletxa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.element{
+  float: left;
+}
+
+#contacte{
+  width: 14.5rem;
+  height: 4.125rem;
+  margin-left: 1.625rem;
+  background-image: url(img/capchat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.simbol{
+  width: 2rem;
+  height: 2rem;
+  float: right;
+  margin-top: 1rem;
+  margin-left: 0.813rem;
+}
+
+#cam{
+  background-image: url(img/cam.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#tlf{
+  background-image: url(img/tlf.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#puntsverticals{
+  background-image: url(img/puntsverticals.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*------MISSATGES------*/
+.mensaje_izq{
+  width: 60%;
+  height: 3.188rem;
+  background-color: #C3FFFF;
+  border-radius: 3px 25px 25px 25px;
+}
+
+#segon{
+  width: 70%;
+}
+
+.mensaje_dre{
+  width: 60%;
+  height: 3.188rem;
+  background-color: #C3FFFF;
+  border-radius: 25px 3px 25px 25px;
+  float: right;
+  margin-top: 1rem;
+}
+
+#quart{
+  width: 20.813rem;
+  height: 16.438rem;
+  background-color: #C3FFFF;
+  background-image: url(img/mudança.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cinque{
+  margin-top: 22.6rem;
+  width: 15rem;
+}
+
+#sise{
+  width: 11rem;
+}
+
+/*------BARRA PER ESCRIURE------*/
+
+.interaccio{
+  width: 30rem;
+  height: 3.188rem;
+  border-radius: 50px;
+  margin-top: 10rem;
+}
+
+.esquerra{
+  width: 26rem;
+  height: 3.188rem;
+  float: left;
+  background-color: #19D3C5;
+  border-radius: 50px;
+}
+
+.emojis{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/emojis.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  float: left;
+}
+
+.dreta{
+  width: 3.188rem;
+  height: 3.188rem;
+  float: right;
+  background-image: url(img/enviar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #19D3C5;
+  border-radius: 50px;
+}
+
+/*------BARRA D'HEINES------*/
+
+.barra{
+  width: 100%;
+  height: 4.5rem;
+  margin: 0 auto;
+  background-color: #19D3C5;
+  border-radius: 25px 25px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+.centre{
+  margin: 0 auto;
+}
+
+.icon{
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  margin-top: 1rem;
+  margin-left: 2.2rem;
+}
+
+.icon:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+#grafic{
+  background-image: url(img/grafic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 5.7rem;
+}
+
+#posts{
+  background-image: url(img/posts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casa{
+  background-image: url(img/casa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#missatges{
+  background-image: url(img/missatges.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#perfil{
+  background-image: url(img/perfil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
