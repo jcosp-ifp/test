@@ -1,0 +1,150 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 1rem;
+}
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #000018;
+  opacity: 40%;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 4rem;
+}
+
+h2{
+  color: white;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 4rem;
+}
+
+h3{
+  color: #000018;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+h5{
+  color: #000018;
+  opacity: 40%;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.titol{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.37rem;
+  margin: 6.3rem 0 3.1rem 0;
+}
+
+.capsa{
+  background-color: #C3FFFF;
+  width: 17.81rem;
+  height: 4.1rem;
+  margin: 0 auto;
+  border-radius: 30rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+#crear:hover{
+  background-color: #5DDCD2;
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+#tornar:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+#crear:active{
+  background-color: #5DDCD2;
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+#tornar:active{
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+
+.parella{
+  width: 17.81rem;
+  height: 4.1rem;
+  border-radius: 30rem;
+  margin: 0 auto;
+}
+
+#ed{
+  float: left;
+  width: 7.655rem;
+  background-color: #C3FFFF;
+}
+
+#ed h1{
+  line-height: 2.5rem;
+}
+
+#gen{
+  float: right;
+  width: 7.655rem;
+  background-color: #C3FFFF;
+}
+
+#gen h1{
+  line-height: 2.5rem;
+}
+
+#activador{
+margin-top: 1.25rem;
+background-color: transparent;
+}
+
+.petit{
+  width: 10rem;
+  height: 2rem;
+  float: right;
+  clear: both;
+  text-align: right;
+}
+
+.acceptar{
+  width: 1rem;
+  height: 1rem;
+  border: solid 0.2rem #000018;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  float: right;
+  opacity: 40%;
+}
+
+#crear{
+  background-color: #19D3C5;
+  width: 17.81rem;
+  height: 4.1rem;
+  margin: 0 auto;
+  margin-top: 8.37rem;
+}
+
+#tornar{
+  background-color: transparent;
+  width: 17.81rem;
+  height: 4.1rem;
+  margin: 0 auto;
+}
