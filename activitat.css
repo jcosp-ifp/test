@@ -41,7 +41,7 @@ h3{
 }
 
 .contenidor{
-  float: left;
+
 }
 
 #retorna{
@@ -52,6 +52,11 @@ h3{
   background-size: contain;
   background-position: center;
   margin-top: 1rem;
+  float: left;
+}
+
+#text {
+  float: left;
 }
 
 /*-----GRAFICA-----*/
@@ -181,10 +186,9 @@ box-shadow: inset 0px -19px 14px 22px rgba(255,255,255,1);
   background-size: cover;
 }
 
-@media screen and  (min-width: 1200px){
+@media screen and (min-width: 1200px){
 
   h1{
-    font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: #000018;
     line-height: 1.2rem;
@@ -192,14 +196,12 @@ box-shadow: inset 0px -19px 14px 22px rgba(255,255,255,1);
   }
 
   h2{
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     text-align: center;
     color: #000018;
   }
 
   h3{
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     text-align: center;
     font-weight: 300;
