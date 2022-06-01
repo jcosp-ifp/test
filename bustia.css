@@ -1,0 +1,591 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 1rem;
+}
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #000018;
+  line-height: 1.2rem;
+  margin-left: 1rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  height: 0.3rem;
+  margin-left: 1rem;
+  color: #000018;
+  line-height: 1rem;
+  font-size: 1.2rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  height: 0.3rem;
+  margin-left: 1rem;
+  color: #000018;
+  line-height: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.pagina{
+  margin: 0 auto;
+  width: 32rem;
+  height: auto;
+}
+
+.superior{
+  width: 23.75rem;
+  height: 4.125rem;
+  margin-top: 1.938rem;
+  margin-bottom: 1rem;
+}
+
+.element{
+  float: left;
+}
+
+
+#icono{
+  height: 2rem;
+  width: 2rem;
+  margin-top: 1rem;
+  background-image: url(img/fletxa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacte{
+  width: 23.75rem;
+  height: 4.396rem;
+  margin-bottom: 2.1rem;
+}
+
+#cesar{
+  background-image: url(img/carabustia1.jpg);
+}
+
+#ainhoa{
+  background-image: url(img/carabustia2.jpg);
+  background-size: contain;
+}
+
+#maria{
+  background-image: url(img/carabustia3.jpg);
+}
+
+#ester{
+  background-image: url(img/carabustia4.jpg);
+}
+
+#jorge{
+  background-image: url(img/carabustia5.jpg);
+}
+
+#carla{
+  background-image: url(img/carabustia6.jpg);
+}
+
+#iñaki{
+  background-image: url(img/carabustia7.jpg);
+}
+
+#carlos{
+  background-image: url(img/carabustia8.jpg);
+  background-size: contain;
+}
+
+.capsa{
+  width: 4.396rem;
+  height: 4.396rem;
+  float: left;
+}
+
+#text{
+  width: 75%;
+  background-color: transparent;
+}
+
+.barra{
+  width: 100%;
+  height: 4.5rem;
+  margin: 0 auto;
+  background-color: #19D3C5;
+  border-radius: 25px 25px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+.simbol{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+.simbol:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+.centre{
+  margin: 0 auto;
+}
+
+#grafic{
+  background-image: url(img/grafic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+
+#posts{
+  background-image: url(img/posts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casa{
+  background-image: url(img/casa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#missatges{
+  background-image: url(img/missatges.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#perfil{
+  background-image: url(img/perfil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and  (min-width: 1200px){
+  body{
+    overflow-x: hidden;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #000018;
+    line-height: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    height: 0.3rem;
+    margin-left: 1rem;
+    color: #000018;
+    line-height: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .interaccio h2{
+    color: white;
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    color: #000018;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .mensaje_dre{
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .mensaje_izq{
+
+  }
+
+  .paquet .mensaje_izq h3{
+    line-height: 1.5rem;
+  }
+
+  h6{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    color: #000018;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  .pagina{
+    margin-left: 4rem;
+    width: 32rem;
+    height: auto;
+    float: left;
+  }
+
+  .superior{
+    width: 23.75rem;
+    height: 4.125rem;
+    margin-top: 1.938rem;
+    margin-bottom: 1rem;
+  }
+
+  .element{
+    float: left;
+  }
+
+
+  #icono{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 1rem;
+    background-image: url(img/fletxa.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .contacte{
+    width: 23.75rem;
+    height: 4.396rem;
+    margin-bottom: 1.9rem;
+  }
+
+  #cesar{
+    background-image: url(img/carabustia1.jpg);
+  }
+
+  #ainhoa{
+    background-image: url(img/carabustia2.jpg);
+    background-size: contain;
+  }
+
+  #maria{
+    background-image: url(img/carabustia3.jpg);
+  }
+
+  #ester{
+    background-image: url(img/carabustia4.jpg);
+  }
+
+  #jorge{
+    background-image: url(img/carabustia5.jpg);
+  }
+
+  #carla{
+    background-image: url(img/carabustia6.jpg);
+  }
+
+  #iñaki{
+    background-image: url(img/carabustia7.jpg);
+  }
+
+  #carlos{
+    background-image: url(img/carabustia8.jpg);
+    background-size: contain;
+  }
+
+  .capsa{
+    width: 4.396rem;
+    height: 4.396rem;
+    float: left;
+  }
+
+  #text{
+    width: 75%;
+    background-color: transparent;
+  }
+
+/*-----CHAT DRETA-----*/
+
+.chat{
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.paquet{
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 70rem;
+  height: auto;
+}
+
+.titol{
+  width: auto;
+  height: 4.125rem;
+  margin-top: 1.938rem;
+  margin-bottom: 2rem;
+}
+
+.element{
+  float: left;
+}
+
+#contacte{
+  width: 14.5rem;
+  height: 4.125rem;
+  margin-left: 1.625rem;
+  background-image: url(img/capchat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.simbolet{
+  width: 2rem;
+  height: 2rem;
+  float: right;
+  margin-top: 1rem;
+  margin-left: 0.813rem;
+}
+
+#cam{
+  background-image: url(img/cam.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#tlf{
+  background-image: url(img/tlf.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#puntsverticals{
+  background-image: url(img/puntsverticals.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*------MISSATGES------*/
+.mensaje_izq{
+  width: 30%;
+  height: 3.3rem;
+  background-color: #C3FFFF;
+  border-radius: 3px 25px 25px 25px;
+}
+
+#segon{
+  width: 35%;
+}
+
+.mensaje_dre{
+  width: 30%;
+  height: 3.3rem;
+  background-color: #C3FFFF;
+  border-radius: 25px 3px 25px 25px;
+  float: right;
+  clear: both;
+  margin-top: 1rem;
+  text-align: right;
+}
+
+#quart{
+  width: 20.813rem;
+  height: 16.438rem;
+  background-color: #C3FFFF;
+  background-image: url(img/mudança.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cinque{
+  margin-top: 22.6rem;
+  width: 30%;
+}
+
+#sise{
+  width: 20%;
+}
+
+/*------BARRA PER ESCRIURE------*/
+
+.interaccio{
+  width: 30rem;
+  height: 3.188rem;
+  margin: 0 auto;
+  border-radius: 50px;
+  margin-top: 10rem;
+}
+
+.esquerra{
+  width: 26rem;
+  height: 3.188rem;
+  float: left;
+  background-color: #19D3C5;
+  border-radius: 50px;
+}
+
+.emojis{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/emojis.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  float: left;
+}
+
+.dreta{
+  width: 3.188rem;
+  height: 3.188rem;
+  float: right;
+  background-image: url(img/enviar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #19D3C5;
+  border-radius: 50px;
+}
+
+/*------BARRA D'HEINES------*/
+
+.barra{
+  width: 100%;
+  height: 6.5rem;
+  background-color: #19D3C5;
+  border-radius: 25px 25px 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0rem;
+  box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+}
+
+.centre{
+  margin: 0 auto;
+}
+
+.icon{
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  margin-top: 2.313rem;
+  margin-left: 3.2rem;
+}
+
+.icon:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+#grafic{
+  background-image: url(img/grafic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 5.7rem;
+}
+
+#posts{
+  background-image: url(img/posts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casa{
+  background-image: url(img/casa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#missatges{
+  background-image: url(img/missatges.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#perfil{
+  background-image: url(img/perfil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+  /*-----BARRA D'EINES-----*/
+
+  .barra{
+    width: 100%;
+    height: 4.5rem;
+    margin: 0 auto;
+    background-color: #19D3C5;
+    border-radius: 25px 25px 0 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    text-align: center;
+  }
+
+  .simbol{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: inline-block;
+  }
+
+  .simbol:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+  }
+
+  .centre{
+    margin: 0 auto;
+  }
+
+  #grafic{
+    background-image: url(img/grafic.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+  }
+
+  #posts{
+    background-image: url(img/posts.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #casa{
+    background-image: url(img/casa.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #missatges{
+    background-image: url(img/missatges.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #perfil{
+    background-image: url(img/perfil.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
