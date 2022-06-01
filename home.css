@@ -1,19 +1,21 @@
 html {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  font-size: 1rem;
 }
 
 body{
   margin:0;
   height: 200%;
   background-image: url(img/mapafons.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-size: 100%;
   font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1 {
   font-size: 1.5rem;
   color: #000018;
   opacity: 40%;
@@ -21,7 +23,7 @@ h1{
   margin-right: 1rem;
 }
 
-h2{
+h2 {
   font-size: 1.1rem;
   color: #000018;
   margin: 0 auto;
@@ -59,36 +61,38 @@ input[type=checkbox] {
   }
 
   #alternador label{
-    width: 5rem;
-    height: 5rem;
-    background: transparent;
+    width: 3rem;
+    height: 3rem;
     position: absolute;
-    top: 0.5rem;
-    left: 2.5rem;
+    top: 0rem;
+    left: 0.5rem;
     border-radius: 0.5rem;
     transition: all 0.5 ease;
     cursor: pointer;
     opacity: 1;
+    z-index: 505555555555555555555555555555555555555;
   }
 
   .desplega{
     width: 20rem;
-    height: 59.99rem;
+    height: 54rem;
     background-color: #19D3C5;
     border-radius: 0 47px 47px 0;
     position: absolute;
-    top: 2.5rem;
-    left: -21rem;
-    z-index: 9999999;
-    box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    top: 3.4rem;
+    left: -29rem;
+    z-index: 999999999999999999999999999999;
+    -webkit-box-shadow: 7px 0px 50px -15px rgba(0,0,0,0.78);
+    box-shadow: 7px 0px 50px -15px rgba(0,0,0,0.78);
     transition: 0.2s ease-in;
+    overflow-y: auto;
     }
 
   #alternador input[type=checkbox]:checked+label{
     opacity: 1;
-    left: 0;
+    top: 0rem;
+    left: 0.5rem;
+
   }
 
   #alternador input[type=checkbox]:checked+label~.desplega{
@@ -96,7 +100,7 @@ input[type=checkbox] {
     left: 0;
   }
 
-  b{
+  b {
     width: 3rem;
     height: 3rem;
     background-image: url(img/menu.svg);
@@ -114,34 +118,28 @@ input[type=checkbox] {
 /*-----INTERIOR DEL MENU-----*/
 
 h5{
+  height: 2rem;
+  width: 3rem;
   font-size: 1rem;
   color: #000018;
   opacity: 40%;
-  height: 4.125rem;
-  margin-left: 13rem;
-  line-height: 3rem;
+  display: inline-block;
+  margin:0;
+  padding: 0;
+  vertical-align: middle;
 }
 
-h6{
-  font-size: 1rem;
-  color: white;
-  margin-left: 1rem;
-}
-
-h6:hover{
-  background-color: #5DDCD2;
-  border-radius: 50px;
-  transition: 0.1s ease-in;
-}
 
 /*-----BARRA SUPERIOR-----*/
 
 .barreta{
-  width: 80%;
+  width: 60%;
   height: 3rem;
   background-color: #C3FFFF;
   border-radius: 50px;
-  margin: 0 auto;
+  margin: 2rem 0 0 2rem;
+  text-align: right;
+
 }
 
 .lupeta{
@@ -151,17 +149,46 @@ h6:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  float: right;
+  display: inline-block;
   margin: 0.5rem;
+  vertical-align: middle;
 }
 
 /*-----SECCIONS-----*/
 
+.llisca{
+  height: 35rem;
+  overflow-y: auto;
+}
+
 .seccio{
   width: 80%;
-  height: 2rem;
-  margin: 0 auto;
+  height: 1.8rem;
+  margin: 1rem auto;
   clear: both;
+}
+
+.seccio h6{
+  font-size: 0.8rem;
+  color: white;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+  float: left;
+}
+
+.seccio h6:hover{
+  background-color: #5DDCD2;
+  border-radius: 50px;
+  transition: 0.1s ease-in;
+}
+
+
+.seccio .conten {
+  margin: 0;
+  float: left;
+  overflow: hidden;
 }
 
 #baixa{
@@ -172,12 +199,13 @@ h6:hover{
   width: 80%;
   height: 2rem;
   float: left;
+  margin:0;
+  overflow: hidden;
 }
 
 #campana{
   width: 1.7rem;
   height: 1.7rem;
-  margin-top: 2rem;
   background-image: url(img/campana.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -187,7 +215,6 @@ h6:hover{
 #privacitat{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/privacitat.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -197,7 +224,6 @@ h6:hover{
 #seguretat{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/seguretat.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -207,7 +233,6 @@ h6:hover{
 #anuncis{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/anuncis.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -217,7 +242,6 @@ h6:hover{
 #compte{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/compte.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -227,7 +251,6 @@ h6:hover{
 #ajuda{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/ajuda.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -237,7 +260,6 @@ h6:hover{
 #informacio{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/informacio.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -247,7 +269,6 @@ h6:hover{
 #tema{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/tema.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -257,7 +278,6 @@ h6:hover{
 #idioma{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/idioma.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -267,7 +287,6 @@ h6:hover{
 #iniciar{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/iniciar.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -278,7 +297,6 @@ h6:hover{
 #agregar{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/agregar.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -289,12 +307,12 @@ h6:hover{
 #sortir{
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 2rem;
   background-image: url(img/sortir.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
+
 
 /*-----PART SUPERIOR-----*/
 
@@ -317,13 +335,22 @@ h6:hover{
   margin-top: 0.5rem;
 }
 
+.superior {
+  position: fixed;
+  top: 0.9rem;
+  left: 0;
+  right: 0;
+  height: 4.125rem;
+  z-index: 888888888;
+
+}
+
 .cercador{
-    width: 60%;
+    width: 15rem;
     height: 4.125rem;
     background-color: #C3FFFF;
     border-radius: 50px;
-    float: right;
-    margin-right: 3rem;
+    margin: 0 auto;
 }
 
 .lupa{
@@ -345,38 +372,17 @@ h6:hover{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  float: right;
-  margin-top: 0.5rem;
-}
 
-/*-----PART SUPERIOR-----*/
-
-.comentari{
-  width: 30rem;
-  height: 12rem;
-  background-image: url(img/pastilla.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 0 auto;
-  margin-top: 12rem;
-}
-
-.suma{
-  width: 2rem;
-  height: 5rem;
-  background-image: url(img/suma.png);
-  background-repeat: no-repeat;
-  background-size: 50% auto;
-  background-position: center 2rem;
-  padding: 2rem;
-  float: left;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
 }
 
 /*-----BARRA D'EINES-----*/
 
 .barra{
   width: 100%;
-  height: 6.5rem;
+  height: 4.5rem;
   margin: 0 auto;
   background-color: #19D3C5;
   border-radius: 25px 25px 0 0;
@@ -396,7 +402,7 @@ h6:hover{
 .simbol{
   width: 2rem;
   height: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 2rem;
   display: inline-block;
 }
@@ -435,6 +441,34 @@ h6:hover{
   background-image: url(img/perfil.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/*-----PREGUNTA-----*/
+
+.comentari{
+  width: 25rem;
+  height: 10rem;
+  background-color: #C3FFFF;
+  border-radius: 35px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-left: -12.5rem;
+  position: fixed;
+  left: -12.5rem;
+  top: 50%;
+  left: 50%;
+}
+
+.suma{
+  width: 2rem;
+  height: 5rem;
+  background-image: url(img/suma.png);
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center 2rem;
+  padding: 2rem;
+  float: left;
+
 }
 
 @media screen and (min-width: 1200px){
