@@ -1,0 +1,686 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 1rem;
+}
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #000018;
+  line-height: 1.2rem;
+  margin-left: 1rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  height: 4.125rem;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  height: 0.3rem;
+  margin-left: 1rem;
+  color: #000018;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  float: left;
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  height: 0.3rem;
+  margin-left: 1rem;
+  color: #000018;
+  line-height: 0rem;
+  font-size: 1rem;
+  float: left;
+  font-weight: 300;
+}
+
+h6{
+  font-size: 1rem;
+  float: left;
+  margin-left: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #000018;
+  width: auto;
+}
+
+.canvis h6{
+  margin: 0;
+  text-align: center;
+  opacity: 40%;
+  font-size: 1.5rem;
+  float: none;
+  line-height: 4.5rem;
+}
+
+.pastilla h6{
+  margin: 0 0 0 1.5rem;
+  opacity: 40%;
+  font-size: 1.5rem;
+  float: none;
+  line-height: 4.5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*-----BARRA SUPERIOR-----*/
+.pagina{
+  margin-top: 1.938rem;
+  position: relative;
+  top: rem;
+}
+
+/*-----FINESTRA-----*/
+
+.finestra{
+  width: 30rem;
+  left:0;
+  right: 0;
+  margin: auto;
+  height: 32rem;
+  position: absolute;
+  top: 17rem;
+  z-index: 999;
+  background-color: #C3FFFF;
+  border-radius: 12%;
+  -webkit-box-shadow: 0px 5px 43px -9px rgba(0,0,0,0.77);
+  box-shadow: 0px 5px 43px -9px rgba(0,0,0,0.77);
+}
+
+.pastilla{
+  width: 28rem;
+  height: 4.125rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 50px;
+  margin-top: 2rem;
+}
+
+#titul{
+
+}
+
+#publi{
+  height: 15rem;
+}
+
+.sumador{
+  width: 5rem;
+  height: 5rem;
+  float: left;
+  margin-top: 5rem;
+  margin-left: 11.5rem;
+  background-image: url(img/crear.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sumador:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+.contenidor{
+  width: 30rem;
+  height: 4.125rem;
+  margin: 0 auto;
+}
+
+.canvis{
+  width: 12rem;
+  height: 4.125rem;
+  background-color: #19D3C5;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  border-radius: 50px;
+  float: left;
+}
+
+.canvis:hover{
+  background-color: #5DDCD2;
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+.canvis:active{
+  background-color: #5DDCD2;
+  transition: 0.3s ease-in;
+}
+
+#fantasmet{
+  background-color: transparent;
+}
+
+#fantasmet:hover{
+  background-color: transparent;
+}
+
+
+
+/*-----BARRA SUPERIOR-----*/
+
+.superior{
+  width: 30rem;
+  height: 4.125rem;
+  margin-top: 1.938rem;
+  margin: 0 auto;
+  filter: blur(5px);
+}
+
+.retorna{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  float: left;
+  background-image: url(img/fletxa.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.social{
+  width: auto;
+  height: 4.125rem;
+  float: left;
+}
+
+
+.afegir{
+  width: 3rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  float: right;
+  background-image: url(img/afegir.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/*-----POSTS-----*/
+
+.post{
+  width: 30rem;
+  height: 10rem;
+  background-image: url(img/pastillamedia.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  border-radius: 2%;
+  filter: blur(5px);
+}
+
+.usuari{
+  width: 55%;
+  height: 4rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  float: left;
+}
+
+.foto{
+  width: 5rem;
+  height: 5rem;
+  background-image: url(img/fotopost1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+#foto_dos{
+  background-image: url(img/fotopost2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#foto_tres{
+  background-image: url(img/fotopost3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.punts{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/puntsverticals.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: right;
+  margin: 2.4rem 1rem 0 0;
+}
+
+.cor{
+  width: 1.6rem;
+  height: 1.6rem;
+  background-image: url(img/cor.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: right;
+  margin-left: 5.7rem;
+}
+
+#segon{
+  height: 25rem;
+  border-radius: 8%;
+}
+
+/*-----BARRA D'EINES-----*/
+
+.barra{
+  width: 100%;
+  height: 4.5rem;
+  margin: 0 auto;
+  background-color: #19D3C5;
+  border-radius: 25px 25px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  text-align: center;
+  filter: blur(5px);
+}
+
+.simbol{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+.centre{
+  margin: 0 auto;
+}
+
+#grafic{
+  background-image: url(img/grafic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+
+#posts{
+  background-image: url(img/posts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casa{
+  background-image: url(img/casa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#missatges{
+  background-image: url(img/missatges.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#perfil{
+  background-image: url(img/perfil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and  (min-width: 1200px){
+  body{
+    overflow-x: hidden;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #000018;
+    line-height: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    height: 4.125rem;
+    text-align: center;
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    height: 0.3rem;
+    margin-left: 1rem;
+    color: #000018;
+    line-height: 1.6rem;
+    font-size: 1rem;
+    float: left;
+  }
+
+  h5{
+    font-family: 'Montserrat', sans-serif;
+    height: 0.3rem;
+    margin-left: 1rem;
+    color: #000018;
+    line-height: 0rem;
+    font-size: 1rem;
+    float: left;
+    font-weight: 300;
+  }
+
+  h6{
+    font-size: 1rem;
+    float: left;
+    margin-left: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000018;
+    width: auto;
+  }
+
+  .canvis h6{
+    margin: 0;
+    text-align: center;
+    opacity: 40%;
+    font-size: 1.5rem;
+    float: none;
+    line-height: 4.5rem;
+  }
+
+  .pastilla h6{
+    margin: 0 0 0 1.5rem;
+    opacity: 40%;
+    font-size: 1.5rem;
+    float: none;
+    line-height: 4.5rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  /*-----BARRA SUPERIOR-----*/
+  .pagina{
+    margin-top: 1.938rem;
+  }
+
+  /*-----FINESTRA-----*/
+
+  .finestra{
+    width: 30rem;
+    left:0;
+    right: 0;
+    margin: auto;
+    height: 32rem;
+    position: absolute;
+    top: 17rem;
+    z-index: 999;
+    background-color: #C3FFFF;
+    border-radius: 12%;
+    -webkit-box-shadow: 0px 5px 43px -9px rgba(0,0,0,0.77);
+    box-shadow: 0px 5px 43px -9px rgba(0,0,0,0.77);
+  }
+
+  .pastilla{
+    width: 28rem;
+    height: 4.125rem;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 2rem;
+  }
+
+  #titul{
+
+  }
+
+  #publi{
+    height: 15rem;
+  }
+
+  .sumador{
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin-top: 5rem;
+    margin-left: 11.5rem;
+    background-image: url(img/crear.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sumador:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+  }
+
+  .contenidor{
+    width: 30rem;
+    height: 4.125rem;
+    margin: 0 auto;
+  }
+
+  .canvis{
+    width: 12rem;
+    height: 4.125rem;
+    background-color: #19D3C5;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    border-radius: 50px;
+    float: left;
+  }
+
+  .canvis:hover{
+    background-color: #5DDCD2;
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+  }
+
+  .canvis:active{
+    background-color: #5DDCD2;
+    transition: 0.3s ease-in;
+  }
+
+  #fantasmet{
+    background-color: transparent;
+  }
+
+  #fantasmet:hover{
+    background-color: transparent;
+  }
+
+
+
+  /*-----BARRA SUPERIOR-----*/
+
+  .superior{
+    width: 30rem;
+    height: 4.125rem;
+    margin-top: 1.938rem;
+    margin: 0 auto;
+    filter: blur(5px);
+  }
+
+  .retorna{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    float: left;
+    background-image: url(img/fletxa.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .social{
+    width: auto;
+    height: 4.125rem;
+    float: left;
+  }
+
+
+  .afegir{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    float: right;
+    background-image: url(img/afegir.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  /*-----POSTS-----*/
+
+  .post{
+    width: 30rem;
+    height: 10rem;
+    background-image: url(img/pastillamedia.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-radius: 2%;
+    filter: blur(5px);
+  }
+
+  .usuari{
+    width: 55%;
+    height: 4rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    float: left;
+  }
+
+  .foto{
+    width: 5rem;
+    height: 5rem;
+    background-image: url(img/fotopost1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+  }
+
+  #foto_dos{
+    background-image: url(img/fotopost2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #foto_tres{
+    background-image: url(img/fotopost3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .punts{
+    width: 2rem;
+    height: 2rem;
+    background-image: url(img/puntsverticals.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: right;
+    margin: 2.4rem 1rem 0 0;
+  }
+
+  .cor{
+    width: 1.6rem;
+    height: 1.6rem;
+    background-image: url(img/cor.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: right;
+    margin-left: 5.7rem;
+  }
+
+  #segon{
+    height: 25rem;
+    border-radius: 8%;
+  }
+
+  /*-----BARRA D'EINES-----*/
+
+  .barra{
+    width: 100%;
+    height: 4.5rem;
+    margin: 0 auto;
+    background-color: #19D3C5;
+    border-radius: 25px 25px 0 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    text-align: center;
+    filter: blur(5px);
+  }
+
+  .simbol{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: inline-block;
+  }
+
+  .centre{
+    margin: 0 auto;
+  }
+
+  #grafic{
+    background-image: url(img/grafic.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+  }
+
+  #posts{
+    background-image: url(img/posts.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #casa{
+    background-image: url(img/casa.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #missatges{
+    background-image: url(img/missatges.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #perfil{
+    background-image: url(img/perfil.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
