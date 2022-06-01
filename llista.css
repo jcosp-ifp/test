@@ -1,0 +1,264 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 1rem;
+}
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #000018;
+  line-height: 1.2rem;
+  margin-left: 1rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #000018;
+  opacity: 40%;
+  float: right;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  height: 0.3rem;
+  margin-left: 1rem;
+  color: #000018;
+  line-height: 0.8rem;
+  font-size: 1.2rem;
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  height: 0.3rem;
+  margin-left: 1rem;
+  color: #000018;
+  line-height: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.pagina{
+  margin: 0 auto;
+  width: 30rem;
+  height: auto;
+}
+
+/*-----FINESTRA-----*/
+
+.finestra{
+  width: 30rem;
+  height: 43rem;
+  background-image: url(img/pastillallista.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 15rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 999;
+  border-radius: 5%;
+}
+
+.contenidor{
+ width: 25rem;
+ height: auto;
+ margin: 0 auto;
+ margin-top: 2rem;
+}
+
+.titol{
+  float: left;
+  margin-left: 0.5rem;
+}
+
+#arrow{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/fletxa.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 1rem;
+}
+
+.blanc{
+  width: 100%;
+  height: 30rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  float: left;
+  background-image: url(img/pastillablanca.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.usuari{
+  width: 25rem;
+  height: 4.396rem;
+  margin-bottom: 1.9rem;
+}
+
+.usuari:hover{
+  background-color: #F3F3F3;
+  transition: 0.3s ease-in;
+}
+
+#informacio{
+  width: 50%;
+}
+
+.suma{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/plus.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: right;
+  margin-top: 1.2rem;
+}
+
+/*----BARRA SUPERIOR----*/
+
+.superior{
+  width: 30rem;
+  height: 4.125rem;
+  margin-top: 1.938rem;
+  margin-bottom: 1rem;
+  filter: blur(5px);
+}
+
+.element{
+  float: left;
+}
+
+#icono{
+  height: 2rem;
+  width: 2rem;
+  margin-top: 1rem;
+  background-image: url(img/fletxa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*----LLISTA + CERCA----*/
+
+.eines{
+  width: 30rem;
+  height: 4.125rem;
+  margin-bottom: 1rem;
+  filter: blur(5px);
+}
+
+.llista{
+  width: 4.125rem;
+  height: 4.125rem;
+  float: left;
+  background-image: url(img/llista.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.cercador{
+  width: 80%;
+  height: 4.125rem;
+  background-color: #C3FFFF;
+  border-radius: 50px;
+  float: right;
+}
+
+.lupa{
+  width: 3rem;
+  height: 3rem;
+  background-image: url(img/lupa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: right;
+  margin: 0.8rem;
+}
+
+/*----CONTACTES----*/
+
+.noms{
+  width: 34rem;
+  height: auto;
+  margin: 0 auto;
+  filter: blur(5px);
+}
+
+.contacte{
+  width: 30rem;
+  height: 4.396rem;
+  margin-bottom: 1.9rem;
+}
+
+#cesar{
+  background-image: url(img/carabustia1.jpg);
+}
+
+.capsa{
+  width: 4.396rem;
+  height: 4.396rem;
+  float: left;
+}
+
+#text{
+  width: 75%;
+  background-color: transparent;
+}
+
+.plus{
+  width: 2.2rem;
+  height: 2.2rem;
+  background-image: url(img/plus.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: right;
+  margin: 1.2rem 0 1rem 0;
+}
+
+#robinson{
+  background-image: url(img/jrobinson.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gimenez{
+  background-image: url(img/jgimenez.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#guijarro{
+  background-image: url(img/jguijarro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casanova{
+  background-image: url(img/icasanova.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bastion{
+  background-image: url(img/cbastion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
