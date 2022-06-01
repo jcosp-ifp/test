@@ -1,0 +1,625 @@
+body{
+  overflow: hidden;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #000018;
+  line-height: 1.2rem;
+  margin-left: 1rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  height: 0.3rem;
+  margin-left: 1rem;
+  color: #000018;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  float: left;
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  height: 0.3rem;
+  margin-left: 1rem;
+  color: #000018;
+  line-height: 0rem;
+  font-size: 1rem;
+  float: left;
+  font-weight: 300;
+}
+
+h6{
+  font-size: 1rem;
+  float: left;
+  margin-left: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #000018;
+  width: auto;
+}
+
+/*-----AFEGIR POST-----*/
+
+.boto{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+  top: 45rem;
+  z-index: 999;
+}
+
+.crear{
+  width: 7rem;
+  height: 7rem;
+  margin: 0 auto;
+  background-image: url(img/crear.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.crear:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+/*-----BARRA SUPERIOR-----*/
+.pagina{
+  margin-top: 1.938rem;
+}
+
+
+.superior{
+  width: 30rem;
+  height: 4.125rem;
+  margin-top: 1.938rem;
+  margin: 0 auto;
+}
+
+.retorna{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  float: left;
+  background-image: url(img/fletxa.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.social{
+  width: auto;
+  height: 4.125rem;
+  float: left;
+}
+
+
+.afegir{
+  width: 3rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  float: right;
+  background-image: url(img/afegir.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/*-----POSTS-----*/
+
+.post{
+  width: 30rem;
+  height: 10rem;
+  background-image: url(img/pastillamedia.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  border-radius: 2%;
+}
+
+.usuari{
+  width: 55%;
+  height: 4rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  float: left;
+}
+
+.foto{
+  width: 5rem;
+  height: 5rem;
+  background-image: url(img/fotopost1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+#foto_dos{
+  background-image: url(img/fotopost2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fotografia{
+  width: 27rem;
+  height: 13.2rem;
+  margin: 0 auto;
+  margin-top: 9rem;
+  background-image: url(img/cartro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+#foto_tres{
+  background-image: url(img/fotopost3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.punts{
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/puntsverticals.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: right;
+  margin: 2.4rem 1rem 0 0;
+}
+
+.cor{
+  width: 1.6rem;
+  height: 1.6rem;
+  background-image: url(img/cor.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: right;
+  margin-left: 5.7rem;
+}
+
+.cor:active{
+  background-image: url(img/like.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transform: scale(1.1);
+  transition: 0.1s ease-in;
+}
+
+.cor:visited{
+  background-image: url(img/like.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#cor_dos{
+  margin-left: 7rem;
+}
+
+#cor_tres{
+  margin-left: 7.2rem;
+}
+
+#segon{
+  height: 25rem;
+  border-radius: 8%;
+}
+
+/*-----BARRA D'EINES-----*/
+
+.barra{
+  width: 100%;
+  height: 4.5rem;
+  margin: 0 auto;
+  background-color: #19D3C5;
+  border-radius: 25px 25px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+.simbol{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+.simbol:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+.centre{
+  margin: 0 auto;
+}
+
+#grafic{
+  background-image: url(img/grafic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+
+#posts{
+  background-image: url(img/posts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casa{
+  background-image: url(img/casa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#missatges{
+  background-image: url(img/missatges.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#perfil{
+  background-image: url(img/perfil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and  (min-width: 1200px){
+
+  body{
+    overflow: hidden;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #000018;
+    line-height: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    height: 0.3rem;
+    margin-left: 1rem;
+    color: #000018;
+    line-height: 1.6rem;
+    font-size: 1rem;
+    float: left;
+  }
+
+  h5{
+    font-family: 'Montserrat', sans-serif;
+    height: 0.3rem;
+    margin-left: 1rem;
+    color: #000018;
+    line-height: 0rem;
+    font-size: 1rem;
+    float: left;
+    font-weight: 300;
+  }
+
+  h6{
+    font-size: 1rem;
+    float: left;
+    margin-left: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000018;
+    width: auto;
+  }
+
+  /*-----AFEGIR POST-----*/
+
+  .boto{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 45rem;
+    z-index: 999;
+  }
+
+  .crear{
+    width: 7rem;
+    height: 7rem;
+    margin: 0 auto;
+    background-image: url(img/crear.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .crear:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+  }
+
+  /*-----BARRA SUPERIOR-----*/
+  .pagina{
+    margin-top: 1.938rem;
+  }
+
+
+  .superior{
+    width: 30rem;
+    height: 4.125rem;
+    margin-top: 1.938rem;
+    margin: 0 auto;
+  }
+
+  .retorna{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    float: left;
+    background-image: url(img/fletxa.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .social{
+    width: auto;
+    height: 4.125rem;
+    float: left;
+  }
+
+
+  .afegir{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    float: right;
+    background-image: url(img/afegir.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  /*-----POSTS-----*/
+
+  .post{
+    width: 30rem;
+    height: 10rem;
+    background-image: url(img/pastillamedia.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-radius: 2%;
+  }
+
+  .usuari{
+    width: 55%;
+    height: 4rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    float: left;
+  }
+
+  .foto{
+    width: 5rem;
+    height: 5rem;
+    background-image: url(img/fotopost1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+  }
+
+  #foto_dos{
+    background-image: url(img/fotopost2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .fotografia{
+    width: 27rem;
+    height: 13.2rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    background-image: url(img/cartro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+  }
+
+  #foto_tres{
+    background-image: url(img/fotopost3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .punts{
+    width: 2rem;
+    height: 2rem;
+    background-image: url(img/puntsverticals.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: right;
+    margin: 2.4rem 1rem 0 0;
+  }
+
+  .cor{
+    width: 1.6rem;
+    height: 1.6rem;
+    background-image: url(img/cor.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: right;
+    margin-left: 5.7rem;
+  }
+
+  .cor:active{
+    background-image: url(img/like.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scale(1.1);
+    transition: 0.1s ease-in;
+  }
+
+  .cor:visited{
+    background-image: url(img/like.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  #cor_dos{
+    margin-left: 7rem;
+  }
+
+  #cor_tres{
+    margin-left: 7.2rem;
+  }
+
+  #segon{
+    height: 25rem;
+    border-radius: 8%;
+  }
+
+  .anunci_esq{
+    width: 40rem;
+    height: 60rem;
+    background-image: url(img/cola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+
+    animation-name: esquerra;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes esquerra {
+    0% {background-image: url(img/cola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    50% {background-image: url(img/dinosaur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    99% {background-image: url(img/cola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+  }
+
+  .anunci_dre{
+    width: 40rem;
+    height: 60rem;
+    float: right;
+    margin-top: -54rem;
+    background-image: url(img/fanta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: dreta;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes dreta {
+    0% {background-image: url(img/fanta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    50% {background-image: url(img/burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    99% {background-image: url(img/fanta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+  }
+
+  /*-----BARRA D'EINES-----*/
+
+  .barra{
+    width: 100%;
+    height: 4.5rem;
+    margin: 0 auto;
+    background-color: #19D3C5;
+    border-radius: 25px 25px 0 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+    text-align: center;
+  }
+
+  .simbol{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: inline-block;
+  }
+
+  .simbol:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+  }
+
+  .centre{
+    margin: 0 auto;
+  }
+
+  #grafic{
+    background-image: url(img/grafic.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+  }
+
+  #posts{
+    background-image: url(img/posts.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #casa{
+    background-image: url(img/casa.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #missatges{
+    background-image: url(img/missatges.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #perfil{
+    background-image: url(img/perfil.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
