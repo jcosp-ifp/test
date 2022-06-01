@@ -56,13 +56,13 @@ h5{
 
 .finestra{
   width: 30rem;
-  height: 43rem;
+  height: 40rem;
   background-image: url(img/pastillallista.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: fixed;
-  top: 15rem;
+  top: 13.5rem;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -129,6 +129,7 @@ h5{
   background-position: center;
   float: right;
   margin-top: 1.2rem;
+  transform: rotate(45deg);
 }
 
 /*----BARRA SUPERIOR----*/
