@@ -1,0 +1,183 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 1rem;
+}
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #000018;
+  line-height: 1.2rem;
+  margin-left: 1rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  height: 3rem;
+  line-height: 3rem;
+  margin-left: 1rem;
+  opacity: 40%;
+}
+
+h3{
+  float: left;
+  margin-left: 1.2rem;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1rem;
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  width: 22rem;
+  height: 7rem;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  line-height: 1.5rem;
+  opacity: 40%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/*-----SUPERIOR-----*/
+
+.pagina{
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.superior{
+  width: 23.75rem;
+  height: 4.125rem;
+  margin-top: 1.938rem;
+}
+
+.element{
+  float: left;
+}
+
+#icono{
+  height: 2rem;
+  width: 2rem;
+  margin-top: 1rem;
+  background-image: url(img/fletxa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*-----CAPSES-----*/
+
+.context{
+  width: 25rem;
+  height: 45rem;
+  background-color: #C3FFFF;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+/*-----BARRA D'ESCRIURE-----*/
+
+.interaccio{
+  width: 22rem;
+  height: auto;
+  border-radius: 50px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 32rem;
+}
+
+.esquerra{
+  width: 18rem;
+  height: 3.188rem;
+  float: left;
+  background-color: #19D3C5;
+  border-radius: 50px;
+}
+
+.dreta{
+  width: 3.188rem;
+  height: 3.188rem;
+  float: right;
+  background-image: url(img/enviar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #19D3C5;
+  border-radius: 50px;
+}
+
+/*-----BARRA D'EINES-----*/
+
+.barra{
+  width: 100%;
+  height: 4.5rem;
+  margin: 0 auto;
+  background-color: #19D3C5;
+  border-radius: 25px 25px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 20px 53px -2px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+.centrat{
+  margin: 0 auto;
+}
+
+.simbol{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+.simbol:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+#grafic{
+  background-image: url(img/grafic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+
+#posts{
+  background-image: url(img/posts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#casa{
+  background-image: url(img/casa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#missatges{
+  background-image: url(img/missatges.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#perfil{
+  background-image: url(img/perfil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
