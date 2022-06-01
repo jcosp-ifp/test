@@ -1,5 +1,16 @@
-h1{
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-size: 1rem;
+}
+
+body{
+  margin:0;
   font-family: 'Montserrat', sans-serif;
+}
+
+h1{
   font-size: 2rem;
   color: #000018;
   line-height: 1.2rem;
@@ -7,14 +18,12 @@ h1{
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
   font-size: 0.8rem;
   text-align: center;
   color: #000018;
 }
 
 h3{
-  font-family: 'Montserrat', sans-serif;
   font-size: 0.8rem;
   text-align: center;
   font-weight: 300;
